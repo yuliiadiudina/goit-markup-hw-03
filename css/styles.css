@@ -35,10 +35,9 @@ img {
 }
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     border: 1px solid #ECECEC;
-    
 }
 
 .header-container{
@@ -51,10 +50,7 @@ img {
 }
 
 .header-list {
-    display: flex;
-    padding-top: 32px; 
-    padding-bottom: 32px ;
-    
+    display: flex
 }
 
 .header-conect {
@@ -72,8 +68,6 @@ img {
     align-items: center;
     display: flex;
     color: #2196F3;
-    padding-top: 24px;
-    padding-bottom: 25px;
     margin-right: 93px;
 
 }
@@ -145,10 +139,7 @@ img {
     display: flex;
     width: 696px;
     height: 120px;
-
-
 }
-
 
 .hero-btn {
     font-weight: bold;
@@ -182,10 +173,7 @@ img {
     display: flex;
     align-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1170px;
-    height: 101px; 
+    padding-bottom: 94px;
 
 }
 .peculiarities-list {     
@@ -211,6 +199,12 @@ img {
     margin-bottom: 10px;
     
 }
+
+.img {
+    width:100%;
+    height:auto;
+}
+
 .after-titel {
     font-family: Roboto;
     font-style: normal;
@@ -377,7 +371,9 @@ img {
 
 /* main section */
 .main-section{
-    margin:94px 215px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
 }
 .main-list {
     display: flex;
@@ -385,7 +381,6 @@ img {
     justify-content:center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 94px;
     margin-bottom: 56px;
 }
 
@@ -401,23 +396,23 @@ img {
     color: #212121;
     background-color:#F5F4FA;
     border-radius: 4px;
-    width: 128px;
-    height: 38px;
+    padding: 6px 22px; 
     border: none;
 }
 
 .main-section-btn:hover,
 .main-section-btn:focus {
     background: #2196F3;
+    color: #FFFFFF;
 }
+
  .current-btn {
-     background-color: #2196F3;;
+     background-color: #2196F3;
  }
 .main-list-pic{
     display: flex;
     flex-wrap: wrap;
-    
-    
+  
 }
 
 .main-item-pic:not(:nth-child(3n + 3)){
@@ -429,6 +424,17 @@ img {
     border: 1px solid #EEEEEE;
     margin-bottom: 20px;
 }
+.main-item-pic:nth-last-child(-n + 3){
+    margin-bottom: 20px;
+}
+.link-main-item-pic {
+    display: block;
+}
+.name-type-projects{
+    flex-wrap: wrap;
+    padding: 24px 24px 20px 24px;
+
+}
 .name-projects{
     font-weight: bold;
     font-size: 18px;
@@ -436,7 +442,6 @@ img {
     letter-spacing: 0.06em;
     color: #212121;
     margin-bottom: 4px;
-    margin-top: 20px;
 }
 .type-projects {
     font-weight: normal;
@@ -444,6 +449,5 @@ img {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
-    margin-bottom: 50px;
     
 }
