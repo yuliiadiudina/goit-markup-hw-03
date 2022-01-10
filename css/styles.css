@@ -16,6 +16,8 @@ button {
 }
 img {
     display: block;
+    width:100%;
+    height:auto;
 }
 
 .list {
@@ -172,7 +174,7 @@ img {
     display: flex;
     align-content: center;
     align-items: center;
-    padding-bottom: 94px;
+    
 
 }
 .peculiarities-list {     
@@ -199,10 +201,6 @@ img {
     
 }
 
-.img {
-    width:100%;
-    height:auto;
-}
 
 .after-titel {
     font-family: Roboto;
@@ -405,27 +403,26 @@ img {
     color: #FFFFFF;
 }
 
- .current-btn {
-     background-color: #2196F3;
- }
+
 .main-list-pic{
     display: flex;
     flex-wrap: wrap;
-  
 }
 
 .main-item-pic:not(:nth-child(3n + 3)){
     margin-right: 30px;
-
 }
+
 .main-item-pic{
     width: 370px;
     border: 1px solid #EEEEEE;
     margin-bottom: 20px;
 }
-.main-item-pic:nth-last-child(-n + 3){
-    margin-bottom: 20px;
+.main-item-pic:nth-last-child(-n + 3) {
+    margin-bottom: 0px;
 }
+
+
 .link-main-item-pic {
     display: block;
 }
